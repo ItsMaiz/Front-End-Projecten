@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    gap: 50px;
+    background: linear-gradient(to bottom right, #FF204E, #5D0E41);
+    flex-wrap: wrap;
+}
+
+.toDo {
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+}
+
+.toDo__header {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toDo__heading {
+    font-weight: 500;
+    font-size: 300%;
+}
+
+.toDo__body {
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.toDo__tasks {
+    list-style: none;
+}
+
+.toDo__task {
+    border-bottom: 2px solid rgb(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.toDo__task--done {
+    text-decoration: line-through;
+}
+
+.toDo__task:hover {
+    cursor: pointer;
+    background: hsl(0, 0%, 90%);
+}
+
+.toDo__footer {
+    height: 10%;
+}
+
+.toDo__input,
+.toDo__headerInput {
+    width: 100%;
+    height: 100%;
+    font-size: 80%;
+    font-family: "Open sans", sans-serif;
+}
+
+.fab {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 240%;
+    color: white;
+    border: none;
+    background: #FF204E;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fab:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.welkom{
+    height: 100vh;
+    
+}
+
+.Uitleg-start{
+    width: 50%;
+    text-align: center;
+}
+
+.welkom_header{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 300%;
+}
+
+.welkom_section{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 150%;
+}
+
+.welkom_footer{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.welkom_input{
+    width: 25%;
+    height: 15%;
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+.welkom_start{
+    width: 20%;
+    height: 20%;
+    background: #3a57e8;
+    border-radius: 5px;
+    border: none;
+    font-size: 150%;
+    color: white;
+}
+
+.welkom_start:hover{
+    cursor: pointer;
+    background: #283593;
+}
+
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.teamnaam {
+    font-style: italic;
+    font-size: 18px;
+    color: #555;
+    padding: 50px;
+}
+
+.quiz_header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    font-weight: bold;
+    color: #333;
+}
+
+.quiz_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz_theme {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #3a57e8;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+.quiz_themes{
+    display: flex;
+    gap: 30px;
+}
+
+.quiz_theme:hover {
+    background-color: #283593;
+    transform: scale(1.1);
+}
+
+.quiz_theme:active {
+    transform: scale(1.05);
+}
+
+.vraag{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-heading{
+    max-height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vraag_body{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.quiz-image{
+    height: 75%;
+    width: 40%;
+    object-fit: cover;
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.answer-buttons{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-button{
+    width: 40%;
+    height: 50%;
+    background: #3a57e8;
+    border-radius: 5px;
+    border: none;
+    font-size: 150%;
+    color: white;
+}
+
+.answer-button:hover{
+    cursor: pointer;
+    background: #283593;
+}
+
+.eindscherm{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.einde{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-eind{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 10%;
+    width: 100%;
+}
+
+.eindscherm-title{
+    font-size: 200%;
+}
+
+.eindscherm-score{
+    font-size: 200%;
+}
+
+.scorebord-eind{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.scorebord-eind h1{
+    font-size: 200%;
+}
+
+.scoreboard-list{
+    font-size: 200%;
+    margin-left: 30px;
+}
+
+.spelers{
+    list-style: none;
+    font-size: 150%;
+}
+
+.button-eind{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-opnieuw-knop{
+    width: 20%;
+    height: 35%;
+    background: #3a57e8;
+    border-radius: 5px;
+    border: none;
+    font-size: 150%;
+    color: white;
+}
+
+.quiz-opnieuw-knop:hover{
+    cursor: pointer;
+    background: #283593;
+}
+
+.footer-eind{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 5px;
+}
+
+.eindscherm-resultaten-titel{
+    font-size: 200%;
+}
+
+.eindscherm-resultaten{
+    width: 50%;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.vraag-resultaat{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vraag-resultaat h4{
+    font-size: 150%;
+}
+
+.vraag-titel{
+    font-size: 150%;
+}
+
+@media screen and (max-width:1000px) {
+
+    .welkom_input{
+        width: 50%;
+    }
+
+    .welkom_start{
+        width: 40%;
+    }
+
+    .quiz_header{
+        padding: 20px;
+    }
+    
+    .teamnaam{
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .quiz_header h1{
+        font-size: 200%;
+    }
+
+    .quiz_themes{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+
+    .quiz_theme:hover {
+        transform: scale(1);
+    }
+
+    .quiz {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .quizTitle{
+        font-size: 200%;
+        padding: 20px;
+    }
+
+    .quiz-image{
+        display: none;
+    }
+    
+    .teamnaam{
+        display: none;
+    }
+
+    .eindscherm{
+        height: 175vh;
+    }
+
+    .button-eind{
+        height: 20%;
+    }
+
+    .footer-eind{
+        height: 50%;
+    }
+
+    .quiz-opnieuw-knop{
+        width: 50%;
+    }
+
+}

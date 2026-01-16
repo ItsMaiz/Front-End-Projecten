@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    gap: 100px;
+    background-image: linear-gradient(45deg,
+    #ffffff 25%,
+    #f7f7f7 25%,
+    #f7f7f7 50%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #f7f7f7 75%,
+    #f7f7f7 100%);
+}
+
+.SafetyLock {
+    position: relative;
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.SafetyLock__header {
+    height : 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.SafetyLock__heading {
+    font-weight: 500;
+    font-size: 250%;
+}
+
+.SafetyLock__form {
+    margin-top: 10%;
+    margin-left: 5%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SafetyLock__label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.SafetyLock__input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.SafetyLock__button {
+    background-color: #00c0c7;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 40%;
+}
+
+.SafetyLock__extra{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+.SafetyLock__entry {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.SafetyLock__entry span {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+
+.SafetyLock__password {
+    font-size: 16px;
+    border: none;
+}
+
+
+.show-btn, .delete-btn {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.show-btn {
+    background-color: #00c0c7;
+    border: 2px solid black;
+    font-size: 12px;
+    width: 22%;
+}
+
+.show-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.delete-btn {
+    background-color: #c4035d;
+    border: 2px solid black;
+    color: black;
+    font-size: 8px;
+}
+
+.delete-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.Safetylock__footer {
+    position: absolute;
+    top: 70%;
+    margin-left: 12%;
+    width: 20%;
+}
+
+
+.fab {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 15%;
+    font-size: 200%;
+    border: 6px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background: orangered;
+}
+
+.fab:hover {
+    cursor: pointer;
+    background: white;
+}
+
+.SafetyLock__Showall {
+    background-color: #00c0c7;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 40%;
+    z-index: 1000;
+}
+
+.SafetyLock__Showall:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .Safetylock__footer{
+        position: absolute;
+        margin-top: 90%;
+        margin-left: 50%;
+        width: 75%;
+    }
+    .fab{
+        position: relative;
+        margin-left: 25%;
+    }
+}

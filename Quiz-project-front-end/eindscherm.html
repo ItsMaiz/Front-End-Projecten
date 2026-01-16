@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eindscherm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body class="eindscherm">
+    <article class="einde">
+        <header class="header-eind">
+            <h2 class="eindscherm-title">Gefeliciteerd <span class="speler-naam"></span>, je hebt de quiz afgerond.</h2>
+            <p class="eindscherm-score">Je score is: <strong class="behaalde-score"></strong> van de <span class="max-score"></span>.</p>
+        </header>
+
+        <section class="scorebord-eind">
+            <h1>Het scoreboard</h1>
+            <ul id="scoreboard" class="scoreboard-list">
+            </ul>
+        </section>
+        
+
+        <section class="button-eind">
+            <button class="quiz-opnieuw-knop" onclick="window.location.href='index.html'">Doe de quiz opnieuw</button>
+        </section>
+
+        <footer class="footer-eind">
+            <h3 class="eindscherm-resultaten-titel">Hieronder kun je zien hoe je het gedaan hebt:</h3>
+            <div id="vraag-resultaten-container">
+            </div>
+        </footer>
+    </article>
+</body>
+</html>

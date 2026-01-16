@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+</head>
+
+<body>
+    <article class="toDo">
+        <header class="toDo__header">
+            <h2 class="toDo__heading">Maandag</h2>
+        </header>
+        <section class="toDo__body">
+            <ul class="toDo__tasks" id="js--list">
+                <li class="toDo__task" data-running="false">Avondeten halen</li>
+                <li class="toDo__task" data-running="false">Sporten 21:00 - 22:00</li>
+                <li class="toDo__task" data-running="false">Boek lezen tot blz. 120</li>
+            </ul>
+        </section>
+        <footer class="toDo__footer">
+            <input type="text" placeholder="Enter a task..." name="" id="js--input" class="toDo__input">
+        </footer>
+    </article>
+    <article class="toDo">
+        <header class="toDo__header">
+            <h2 class="toDo__heading">Done</h2>
+        </header>
+        <section class="toDo__body">
+            <ul class="toDo__tasks" id="js--done">
+            </ul>
+        </section>
+    </article>
+    <button id="js--fab" class="fab">+</button>
+</body>
+
+</html>

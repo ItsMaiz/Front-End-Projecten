@@ -1,0 +1,188 @@
+{
+    "Thema 1: Aardrijkskunde, topografie en ruimte": [
+        {
+            "vraag": "Wat is de hoofdstad van Nederland?",
+            "antwoorden": ["Amsterdam", "Rotterdam", "Den Haag", "Utrecht"],
+            "correct": "Amsterdam",
+            "image": "/img/netherlands-flag-png-large.png"
+        },
+        {
+            "vraag": "Wat is de grootste planeet in ons zonnestelsel?",
+            "antwoorden": ["Aarde", "Saturnus", "Jupiter", "Mars"],
+            "correct": "Jupiter",
+            "image": "/img/zonnestelsel.jpg"
+        },
+        {
+            "vraag": "Hoeveel continenten zijn er?",
+            "antwoorden": ["5", "6", "7", "8"],
+            "correct": "7",
+            "image": "/img/The_Blue_Marble_(remastered).jpg"
+        },
+        {
+            "vraag": "Wat is de langste rivier ter wereld?",
+            "antwoorden": ["Amazonerivier", "Nijl", "Mississippi", "Yangtze"],
+            "correct": "Amazonerivier",
+            "image": "/img/n02-01-rivier.008e22.jpg"
+        },
+        {
+            "vraag": "Welke kleur heeft de vlag van Zwitserland?",
+            "antwoorden": ["Rood en wit", "Blauw en wit", "Groen en wit", "Geel en zwart"],
+            "correct": "Rood en wit",
+            "image": "/img/Europe_Switzerland_Lauterbrunnen-village_valley_719299507-ss.jpg"
+        },
+        {
+            "vraag": "Welke planeet staat het dichtst bij de zon?",
+            "antwoorden": ["Mercurius", "Venus", "Aarde", "Mars"],
+            "correct": "Mercurius",
+            "image": "/img/zonnestelsel.jpg"
+        },
+        {
+            "vraag": "Wat is het kleinste land ter wereld?",
+            "antwoorden": ["Vaticaanstad", "Monaco", "San Marino", "Liechtenstein"],
+            "correct": "Vaticaanstad",
+            "image": "/img/The_Blue_Marble_(remastered).jpg"
+        },
+        {
+            "vraag": "Welke oceaan is het diepst?",
+            "antwoorden": ["Atlantische Oceaan", "Indische Oceaan", "Pacific", "Arctische Oceaan"],
+            "correct": "Pacific",
+            "image": "/img/The_Blue_Marble_(remastered).jpg"
+        },
+        {
+            "vraag": "Wat is de hoofdstad van Australië?",
+            "antwoorden": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
+            "correct": "Canberra",
+            "image": "/img/Flag_of_Australia_(converted).svg.png"
+        },
+        {
+            "vraag": "Welke woestijn is de grootste ter wereld?",
+            "antwoorden": ["Sahara", "Gobi", "Antarctica", "Kalahari"],
+            "correct": "Antarctica",
+            "image": "/img/The_Blue_Marble_(remastered).jpg"
+        }
+    ],
+    "Thema 2: Geschiedenis": [
+        {
+            "vraag": "Wie ontdekte Amerika?",
+            "antwoorden": ["Magelhaes", "Colombus", "Vasco da Gama", "Cabral"],
+            "correct": "Columbus",
+            "image": "/img/us.png"
+        },
+        {
+            "vraag": "In welk jaar begon de Tweede Wereldoorlog?",
+            "antwoorden": ["1935", "1939", "1941", "1945"],
+            "correct": "1939",
+            "image": "/img/wwii-battles-gettyimages-538297253.jpg"
+        },
+        {
+            "vraag": "Wat was de hoofdstad van het Romeinse Rijk?",
+            "antwoorden": ["Carthago", "Constantinopel", "Athene", "Rome"],
+            "correct": "Rome",
+            "image": "/img/12175.w2052.0.f731102.png"
+        },
+        {
+            "vraag": "Wie was de eerste president van de Verenigde Staten?",
+            "antwoorden": ["John Adams", "Thomas Jefferson", "George Washington", "Abraham Lincoln"],
+            "correct": "George Washington",
+            "image": "/img/us.png"
+        },
+        {
+            "vraag": "In welk jaar werd de Berlijnse Muur afgebroken?",
+            "antwoorden": ["1987", "1989", "1990", "1991"],
+            "correct": "1989",
+            "image": "/img/berlijnsemuur.jpg"
+        },
+        {
+            "vraag": "Wat is de oudste nog bestaande stad ter wereld?",
+            "antwoorden": ["Athene", "Damascus", "Jeruzalem", "Rome"],
+            "correct": "Damascus",
+            "image": "/img/Viewofprague.jpg"
+        },
+        {
+            "vraag": "Wie was de eerste mens op de maan?",
+            "antwoorden": ["Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "John Glenn"],
+            "correct": "Neil Armstrong",
+            "image": "/img/817a0b87c8b4a5b09390d4c2ae24ca96.jpg"
+        },
+        {
+            "vraag": "Welk land werd ooit Nederlands-Indië genoemd?",
+            "antwoorden": ["Zuid-Afrika", "Suriname", "Sri Lanka", "Indonesië"],
+            "correct": "Indonesië",
+            "image": "/img/netherlands-flag-png-large.png"
+        },
+        {
+            "vraag": "Welke gebeurtenis begon de Franse Revolutie?",
+            "antwoorden": ["De bestorming van de Bastille", "De kroning van Napoleon", "De slag bij Waterloo", "De val van Versailles"],
+            "correct": "De bestorming van de Bastille",
+            "image": "/img/2022-07-28.jpg"
+        },
+        {
+            "vraag": "Wie schilderde de Mona Lisa?",
+            "antwoorden": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Van Gogh"],
+            "correct": "Leonardo da Vinci",
+            "image": "/img/98.jpg"
+        }
+    ],
+    "Thema 3: Wetenschap en geschiedenis": [
+        {
+            "vraag": "Wat is het symbool voor waterstof in het periodiek systeem?",
+            "antwoorden": ["O", "H", "He", "C"],
+            "correct": "H",
+            "image": "/img/n02-01-rivier.008e22.jpg"
+        },
+        {
+            "vraag": "Wie wordt beschouwd als de uitvinder van de telefoon?",
+            "antwoorden": ["Albert Einstein", "Thomas Edison", "Nikola Tesla", "Alexander Graham Bell"],
+            "correct": "Alexander Graham Bell",
+            "image": "/img/pexels-pixabay-207456.jpg"
+        },
+        {
+            "vraag": "Wat is de snelheid van licht in vacuüm?",
+            "antwoorden": ["300.000 km/s", "150.000 km/s", "1.000.000 km/s", "100.000 km/s"],
+            "correct": "300.000 km/s",
+            "image": "/img/licht-meer-energie-lichtplan.jpg"
+        },
+        {
+            "vraag": "Wie ontwikkelde de relativiteitstheorie?",
+            "antwoorden": ["Galileo Galilei", "Isaac Newton", "Albert Einstein", "Max Planck"],
+            "correct": "Albert Einstein",
+            "image": "/img/Ideen-Entwicklung-Mittelsta.png"
+        },
+        {
+            "vraag": "Wat is de formule voor water?",
+            "antwoorden": ["CH4", "CO2", "O2", "H2O"],
+            "correct": "H2O",
+            "image": "/img/n02-01-rivier.008e22.jpg"
+        },
+        {
+            "vraag": "Wat is de grootste planeet in ons zonnestelsel?",
+            "antwoorden": ["Uranus", "Saturnus", "Jupiter", "Neptunus"],
+            "correct": "Jupiter",
+            "image": "/img/zonnestelsel.jpg"
+        },
+        {
+            "vraag": "Wat is de eenheid van elektrische weerstand?",
+            "antwoorden": ["Volt", "Ohm", "Ampère", "Watt"],
+            "correct": "Ohm",
+            "image": "/img/licht-meer-energie-lichtplan.jpg"
+        },
+        {
+            "vraag": "Wie vond de zwaartekrachtwetten uit?",
+            "antwoorden": ["Isaac Newton", "Galileo Galilei", "Johannes Kepler", "Albert Einstein"],
+            "correct": "Isaac Newton",
+            "image": "/img/Ideen-Entwicklung-Mittelsta.png"
+        },
+        {
+            "vraag": "Wat is het kleinste deeltje in een atoom?",
+            "antwoorden": ["Elektron", "Proton", "Neutron", "Quark"],
+            "correct": "Quark",
+            "image": "/img/Nature Communications - Quantumonderzoekers brengen de kern van ____n enkel atoom aan het wankelen - illustratie.jpg"
+        },
+        {
+            "vraag": "Welke planeet heeft een dag die langer duurt dan een jaar?",
+            "antwoorden": ["Mars", "Venus", "Mercurius", "Neptunus"],
+            "correct": "Venus",
+            "image": "/img/zonnestelsel.jpg"
+        }
+    ]
+}
